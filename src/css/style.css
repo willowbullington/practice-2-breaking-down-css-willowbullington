@@ -1,0 +1,23 @@
+body {
+    font-family: 
+    background-color; 
+    color: whitesmoke
+}
+
+h1 {
+    color:blueviolet 
+}
+
+p {
+    font-size: 500px x 64px
+}
+@font-face {
+    font-family: 'Acron SC';
+    src: url('fonts/AcronSC.woff2') format('woff2'),
+         url('fonts/AcronSC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Acron SC', sans-serif;
+}

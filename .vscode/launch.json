@@ -5,6 +5,32 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "",
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+
+
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch localhost",
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch index.html",
+            "file": "${workspaceFolder}/index.html"
+        },
+
+        {
             "name": "Attach to Chrome",
             "port": 9222,
             "request": "attach",
@@ -18,12 +44,6 @@
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        }
+    
     ]
 }

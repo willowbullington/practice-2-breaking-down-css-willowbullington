@@ -20,4 +20,108 @@
     font-weight: 400;
     font-style: normal;
   }
+  /* General Styling */
+.body-container {
+  font-family: 'Lekton', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the Page Title */
+.page-title {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+  background-color: #0077cc;
+  color: white;
+}
+
+/* Grid Layout for Main Content */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styling */
+.similar-font,
+.find-grid,
+.style-choice {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Headline Styling */
+.similar-font-headline,
+.find-grid-headline,
+.style-choice-headline {
+  font-family: 'Anton', sans-serif;
+  color: #222;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Text Content Styling */
+.similar-font-content p,
+.find-grid-content p,
+.style-choice-content p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Absolute Position Example (for the red SVG graphic) */
+.red-graphic {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+      padding: 15px;
+  }
   
+  .page-title {
+      font-size: 2rem;
+  }
+  
+  .similar-font-headline,
+  .find-grid-headline,
+  .style-choice-headline {
+      font-size: 1.5rem;
+  }
+  
+  .similar-font-content p,
+  .find-grid-content p,
+  .style-choice-content p {
+      font-size: 1rem;
+  }
+}

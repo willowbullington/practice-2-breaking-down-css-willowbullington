@@ -20,15 +20,13 @@
     font-weight: 400;
     font-style: normal;
   }
-  /* General Styling */
+
 .body-container {
   font-family: 'Lekton', sans-serif;
   background-color: #f5f5f5;
   margin: 0;
   padding: 0;
 }
-
-/* Styling for the Page Title */
 .page-title {
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
@@ -40,7 +38,6 @@
   color: white;
 }
 
-/* Grid Layout for Main Content */
 .main-content {
   display: grid;
   grid-template-columns: 1fr;
@@ -52,7 +49,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Styling */
+
 .similar-font,
 .find-grid,
 .style-choice {
@@ -61,7 +58,7 @@
   border-radius: 8px;
 }
 
-/* Headline Styling */
+
 .similar-font-headline,
 .find-grid-headline,
 .style-choice-headline {
@@ -71,7 +68,7 @@
   margin-bottom: 1rem;
 }
 
-/* Text Content Styling */
+
 .similar-font-content p,
 .find-grid-content p,
 .style-choice-content p {
@@ -80,7 +77,6 @@
   margin-bottom: 1rem;
 }
 
-/* Absolute Position Example (for the red SVG graphic) */
 .red-graphic {
   position: absolute;
   top: 50px;
@@ -91,7 +87,7 @@
   border-radius: 50%;
 }
 
-/* Footer Styling */
+
 .footer {
   background-color: #333;
   color: white;
@@ -103,7 +99,7 @@
   width: 100%;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .main-content {
       padding: 15px;
